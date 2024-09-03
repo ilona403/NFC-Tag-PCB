@@ -3,6 +3,8 @@
 
 | Component    | Manufacurer Part Number |
 | --------     | ------- |
-|   LED    | $250    |
-|  | $80     |
-| March    | $420    |
+|  White LED    |  |
+| 68Ω Resistor |     |
+| 220nF Capacitor    |    |
+| NFC Chip    |   |
+| Antenna    | Custom    |
