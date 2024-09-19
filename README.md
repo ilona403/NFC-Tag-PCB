@@ -13,12 +13,16 @@
 The NFC-Tag PCB is a custom NFC tag that can be programmed and read by NFC tools. Different types of files and links can be programmed written onto the ship, to then by read by a device with NFC reading capacbility. This PCB is on the smaller size, which allows it to be put onto a keychain.  It also lights up it LED whenever it is placed against an NFC reader.
 
 ## Antenna Design
-The input capacitance of the NTAG chip is 50pF. The equation for the resonant frequency is $\omega = \frac{1}{\sqrt{LC}}$ The input frequency is 13.56 MHz. Thus the inductance of the antenna must be 2.75$\mu$H.
+The input capacitance of the NTAG chip is 50pF. The equation for the resonant frequency is $\omega = \frac{1}{\sqrt{LC}}$ The input frequency is 13.56 MHz. Thus the inductance of the antenna must be 2.75μH.
 
 The actual dimensions of the antenna were determined by using the NXP Antenna Design Tool: https://community.nxp.com/t5/NFC/bd-p/nfc
 ![image](https://github.com/user-attachments/assets/2f156877-f5c2-45ef-a88d-f3d35930b41d)
 
-The constraints were creating a smaller sized loop antenna, but having the inductance of 2.75$\mu$H.
+The PCB was on the smaller size so it needed a smaller sized loop antenna, but with an inductance of 2.75μH.
+
+The antenna symbol was then designed as a component.
+![image](https://github.com/user-attachments/assets/1f761ccd-47f6-4a04-b4f3-324c7cc10670)
+
 
 
 
