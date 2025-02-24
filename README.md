@@ -31,5 +31,9 @@ The antenna symbol was then designed as a component.
 ## Layout
 
 ## Programming the Chip
+To store NDEF records on the NFC chip, you first need to remove the NFC chip from its factory state. Open NFC Tools, then "OTHER", and then click on "Advanced NFC commands". In the "Data" Region, type in A2:03:E1:10:10:00,A2:04:03:04:D8:00,A2:05:00:00:FE:00
+
+Then click "Send Command" to your NFC chip. You're now ready to use NFC Tools write records to your NFC-Tag.
+
 
 ## Final Product
